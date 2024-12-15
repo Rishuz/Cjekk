@@ -203,8 +203,8 @@ async def main():
         LOGGER.info(f"🚫 Assɪsᴛᴀɴᴛ Eʀʀᴏʀ: {e}")
         sys.exit()
     try:
-        await app.join_chat("net_pro_max")
-        await app.join_chat("ai_image_junction")
+        await app.join_chat("ur_rishu_143")
+        await app.join_chat("vip_robotz")
     except Exception:
         pass
     if LOG_GROUP_ID != 0:
@@ -221,7 +221,7 @@ async def main():
     LOGGER.info("✅ PyTgCalls Started.")
     await asyncio.sleep(1)
     LOGGER.info("✅ Sucessfully Hosted Your Bot !!")
-    LOGGER.info("✅ Now Do Visit: @net_pro_max !!")
+    LOGGER.info("✅ Now Do Visit: @Ur_rishu_143 !!")
     await idle()
 
 
@@ -357,7 +357,7 @@ async def start_message_private(client, message):
 │❍ • ɴᴏ ʟᴀɢs + ɴᴏ ᴀᴅs •‍
 │❍ • 24x7 ᴏɴʟɪɴᴇ sᴜᴘᴘᴏʀᴛ •‍
 ├───────────────────⦿‍
-│           [✰ 𝖮ᴡ፝֠֩𝛈𝛆ʀ  ✰](https://t.me/DvisDmBot)
+│           [✰ 𝖮ᴡ፝֠֩𝛈𝛆ʀ  ✰](t.me/rishu1286)
 ╰───────────────────⦿"""
     buttons = InlineKeyboardMarkup(
         [
@@ -398,7 +398,7 @@ async def start_message_private(client, message):
 @bot.on_callback_query(rgx("help_command_list"))
 async def open_command_list_alert(client, query):
     caption = """
-♡━━━━━━━━━━━━⚆ _ ⚆━━━━━━━━━━━━━♡
+♡━━━━━━━━━⚆ _ ⚆━━━━━━━━━━♡
 **✫ ᴀʟʟ ᴍᴇᴍʙᴇʀs ᴄᴀɴ ᴜsᴇ :**
   ● /play - Stream Only Audio On VC.
   ● /vplay - Stream Audio With Video.
@@ -411,7 +411,7 @@ async def open_command_list_alert(client, query):
 
 **Note:** All Commands Will Work
 Only in Channels/Groups.
-♡━━━━━━━━━━━━⚆ _ ⚆━━━━━━━━━━━━━♡
+♡━━━━━━━━━━⚆ _ ⚆━━━━━━━━━━━♡
 
 **✫ ᴏɴʟʏ ғᴏʀ ᴏᴡɴᴇʀ :**
    ● /ping - Oᴡɴᴇʀs Kɴᴏᴡ
@@ -453,7 +453,7 @@ async def back_to_home_menu(client, query):
 │❍ • ɴᴏ ʟᴀɢs + ɴᴏ ᴀᴅs •‍
 │❍ • 24x7 ᴏɴʟɪɴᴇ sᴜᴘᴘᴏʀᴛ •‍
 ├───────────────────⦿‍
-│               [✰ 𝖮ᴡ፝֠֩𝛈𝛆ʀ  ✰](https://t.me/DvisDmBot)
+│               [✰ 𝖮ᴡ፝֠֩𝛈𝛆ʀ  ✰](https://t.me/rishu1286)
 ╰───────────────────⦿"""
     buttons = InlineKeyboardMarkup(
         [
@@ -761,7 +761,7 @@ async def stream_logger(
 **❍ Cʜᴀᴛ Lɪɴᴋ:** {chat_link}
 **❍ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ:** {requested_by}
 
-❍ 𝖩ᴏɪɴ ➛ **[sᴜᴘᴘᴏꝛᴛ](https://t.me/+7ehnJA3aMb84OGNl)**"""
+❍ 𝖩ᴏɪɴ ➛ **[sᴜᴘᴘᴏꝛᴛ](https://t.me/ur_rishu_143)**"""
             else:
                 caption = f"""**✅ 𝐒ᴛᴀʀᴛᴇᴅ 𝐒ᴛʀᴇᴀᴍɪɴɢ 𝐎ɴ 𝐕ᴄ.**
 
@@ -832,7 +832,7 @@ async def change_stream(chat_id):
 **❍ Sᴛʀᴇᴀᴍ Tʏᴘᴇ ➥ ** {stream_type}
 **❍ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ ➥ ** {requested_by}
 
-❍ ᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ @EraVibesXbot"""
+❍ ᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ @Nenobots"""
     buttons = InlineKeyboardMarkup(
         [
             [
@@ -1038,7 +1038,7 @@ async def stream_audio_or_video(client, message):
 **❍ Sᴛʀᴇᴀᴍ Tʏᴘᴇ ➥ ** {stream_type}
 **❍ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ ➥ ** {requested_by}
 
-❍ 𝖩ᴏɪɴ ➛ **[sᴜᴘᴘᴏꝛᴛ](https://t.me/+7ehnJA3aMb84OGNl)**"""
+❍ 𝖩ᴏɪɴ ➛ **[sᴜᴘᴘᴏꝛᴛ](https://t.me/ur_rishu_143)**"""
                 await bot.send_photo(chat_id, thumbnail, caption, reply_markup=buttons)
                 await stream_logger(
                     chat_id, user, title, duration, stream_type, thumbnail, position
@@ -1147,7 +1147,7 @@ async def stream_audio_or_video(client, message):
 **❍ Sᴛʀᴇᴀᴍ Tʏᴘᴇ ➥ ** {stream_type}
 **❍ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ ➥ ** {requested_by}
 
-❍ ᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ @EraVibesXbot"""
+❍ ᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ @Nenobots"""
                 await bot.send_photo(chat_id, thumbnail, caption, reply_markup=buttons)
                 await stream_logger(
                     chat_id, user, title, duration, stream_type, thumbnail
@@ -1370,7 +1370,7 @@ async def git_repo_link(client, message):
 │❍ • ɴᴏ ʟᴀɢs + ɴᴏ ᴀᴅs •‍
 │❍ • 24x7 ᴏɴʟɪɴᴇ sᴜᴘᴘᴏʀᴛ •‍
 ├───────────────────⦿‍
-│        [✰ 𝖮ᴡ፝֠֩𝛈𝛆ʀ  ✰](https://t.me/DvisDmBot)
+│        [✰ 𝖮ᴡ፝֠֩𝛈𝛆ʀ  ✰](https://t.me/rishu1286)
 ╰───────────────────⦿"""
     else:
         caption = f"**➻ Hello, {mention}.**"
@@ -1379,7 +1379,7 @@ async def git_repo_link(client, message):
             [
                 InlineKeyboardButton(
                     text="🌺 𝐎ᴘᴇɴ 𝐑ᴇᴘᴏsɪᴛᴏʀʏ 𝐋ɪɴᴋ 🦋",
-                    url="https://github.com/IamDvis/DV-MUSIC-V2",
+                    url="https://github.com/Rishubot",
                 )
             ],
             [
@@ -1450,7 +1450,7 @@ async def check_bot_stats(client, message):
     except:
         pass
     photo = START_IMAGE_URL
-    caption = "**⏤͟͞DVIS MUSIC STATS ༗**"
+    caption = "**⏤͟͞RISHU MUSIC STATS ༗**"
     buttons = InlineKeyboardMarkup(
         [
             [
